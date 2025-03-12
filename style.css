@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #777 !important;
+  background: #000 !important;
+  font-family: "Josefin Sans" !important;
+}
+
+nav .logo {
+  text-decoration: none;
+}
+nav a {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #777;
+}
+nav a:hover {
+  color: #20c997;
+}
+nav .fa-solid {
+  font-size: 10px;
+  margin-top: 10px;
+}
+nav .active {
+  color: #20c997;
+}
+nav li {
+  list-style-type: none;
+  margin-top: 20px;
+}
+nav .logo {
+  color: white;
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+nav .logo:hover {
+  color: white;
+}
+nav .links {
+  display: flex;
+}
+nav .fa-brands {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+nav .fa-brands:hover {
+  color: white;
+}
+
+.photography .col-lg-4 {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-image: none;
+  filter: grayscale(100%);
+}
+.photography .col-lg-4:hover {
+  filter: grayscale(0%);
+}
+.photography .col-lg-4:hover .imgs-set {
+  overflow: hidden;
+}
+.photography .col-lg-4:hover img {
+  transform: scale(1.03);
+  transition: all 0.1s linear;
+}
+.photography .col-lg-4 .img-text .natu {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  z-index: 2;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+.photography .col-lg-4 .img-text .more-btn {
+  margin-top: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  background-color: transparent;
+  transform: translate(-50%);
+  border: 2px solid white;
+  color: white;
+  padding: 5px 18px;
+  cursor: pointer;
+}
+.photography .col-lg-4 .img-text .more-btn:hover {
+  background-color: white;
+  color: #000;
+}/*# sourceMappingURL=photosen-home.css.map */
+
+
+.container-fluid .gallery {
+  font-size: 4rem;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.photos .picture {
+  padding-bottom: 30px;
+  filter: grayscale(100%);
+}
+.photos .picture:hover {
+  filter: grayscale(0%);
+  transform: scale(1.02);
+  transition: all 0.2s linear;
+}
+
+.service {
+  background: #262626;
+}
+.service:hover i {
+  transform: scale(1.3);
+  transition: all 0.2s linear;
+}
+.service p {
+  color: #777;
+}
+.service i {
+  color: #20c997;
+}
+.service span {
+  color: #20c997;
+}
+
+
+.main-misson {
+  margin-bottom: 100px;
+}
+.main-misson .misson {
+  filter: grayscale(100%);
+}
+.main-misson .misson:hover {
+  filter: grayscale(0%);
+}
+.main-misson .misson:hover img {
+  transform: scale(1.01);
+  transition: all 0.1s linear;
+}
+
+.main-about {
+  margin-bottom: 30px;
+  display: flex;
+}
+.main-about .about-first img {
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  filter: grayscale(100%);
+}
+.main-about .about-first img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.03);
+  transition: all 0.1s linear;
+}
+.main-about .about-first h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+.main-about .about-first p {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.8rem;
+}
+.main-about .about-first .login-btn i {
+  color: #20c997;
+  padding-left: 20px;
+  font-size: 14px;
+  padding-right: 20px;
+}
+.main-about .about-first .login-btn i:hover {
+  color: rgba(32, 201, 150, 0.5647058824);
+}
+
+.footer {
+  margin-top: 200px;
+}
+
+
+.main-contact {
+  padding-top: 50px;
+}
+.main-contact .contact-first .form-control {
+  border-radius: 0;
+  background: transparent;
+  border-color: #777;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.main-contact .contact-first .form-control:active, .main-contact .contact-first .form-control:focus {
+  border-color: #20c997;
+  box-shadow: none;
+}
+.main-contact .sub-btn {
+  width: 180px;
+  margin-left: 12px;
+  border: 1px solid;
+  color: white;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  margin-top: 10px;
+  background-color: #20c997;
+}
+.main-contact .sub-btn:hover {
+  background-color: rgba(32, 201, 150, 0.5647058824);
+}
+
+.contact-third .contact-info {
+  font-weight: bold;
+  color: white;
+  padding-top: 20px;
+  line-height: 1.8rem;
+}
+.contact-third .add-info-1 {
+  padding-bottom: 50px;
+  text-decoration: none;
+  color: #20c997;
+}
+
+.footer {
+  padding-top: 150px;
+}
